@@ -1,0 +1,501 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|solutionrelative:smartevent.data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.api\\smartevent.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|solutionrelative:smartevent.api\\smartevent.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|solutionrelative:smartevent.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|solutionrelative:smartevent.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\dtos\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\dtos\\registrationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\interfaces\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\models\\attendee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|solutionrelative:smartevent.data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.data\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|solutionrelative:smartevent.data\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\dtos\\attendeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\dtos\\attendeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\dtos\\eventcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\dtos\\eventcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\dtos\\eventdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|solutionrelative:smartevent.services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|solutionrelative:smartevent.data\\repositories\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|solutionrelative:smartevent.data\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|solutionrelative:smartevent.api\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96FC9E76-4E62-4307-8CAF-237A632B61F2}|SmartEvent.API\\SmartEvent.API.csproj|solutionrelative:smartevent.api\\controllers\\eventscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.data\\smarteventdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|solutionrelative:smartevent.data\\smarteventdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.data\\smartevent.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|solutionrelative:smartevent.data\\smartevent.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.services\\smartevent.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|solutionrelative:smartevent.services\\smartevent.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|solutionrelative:smartevent.services\\registrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|solutionrelative:smartevent.services\\ieventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|solutionrelative:smartevent.services\\eventservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.data\\repositories\\attendeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|solutionrelative:smartevent.data\\repositories\\attendeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.data\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0C32321-327B-4CC4-B505-177171808F23}|SmartEvent.Data\\SmartEvent.Data.csproj|solutionrelative:smartevent.data\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\interfaces\\iregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\interfaces\\iregistrationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A577345B-2F5C-4240-8313-82DC561D1E81}|SmartEvent.Services\\SmartEvent.Services.csproj|solutionrelative:smartevent.services\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|c:\\users\\windows 11\\source\\repos\\smartevent\\smartevent.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6171624A-8C9A-4B59-83BA-6F93523465AE}|SmartEvent.Core\\SmartEvent.Core.csproj|solutionrelative:smartevent.core\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "SmartEvent.Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:48:45.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegistrationDto.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\DTOs\\RegistrationDto.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\DTOs\\RegistrationDto.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\DTOs\\RegistrationDto.cs",
+              "RelativeToolTip": "SmartEvent.Core\\DTOs\\RegistrationDto.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:08:34.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Attendee.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\Attendee.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\Models\\Attendee.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\Attendee.cs",
+              "RelativeToolTip": "SmartEvent.Core\\Models\\Attendee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:02:42.365Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\Event.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\Models\\Event.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\Event.cs",
+              "RelativeToolTip": "SmartEvent.Core\\Models\\Event.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvx0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:41:52.595Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Interfaces\\IEventService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\Interfaces\\IEventService.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Interfaces\\IEventService.cs",
+              "RelativeToolTip": "SmartEvent.Core\\Interfaces\\IEventService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:42:33.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\appsettings.json",
+              "RelativeDocumentMoniker": "SmartEvent.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\appsettings.json",
+              "RelativeToolTip": "SmartEvent.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-19T14:44:38.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\Program.cs",
+              "RelativeDocumentMoniker": "SmartEvent.API\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\Program.cs",
+              "RelativeToolTip": "SmartEvent.API\\Program.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAgwDgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T14:42:09.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SmartEvent.API.http",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\SmartEvent.API.http",
+              "RelativeDocumentMoniker": "SmartEvent.API\\SmartEvent.API.http",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\SmartEvent.API.http",
+              "RelativeToolTip": "SmartEvent.API\\SmartEvent.API.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-19T18:00:31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\AppDbContext.cs",
+              "RelativeToolTip": "SmartEvent.Data\\AppDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:37:32.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "SmartEvent.Data\\Repositories\\IRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T13:22:26.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttendeeDto.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\DTOs\\AttendeeDto.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\DTOs\\AttendeeDto.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\DTOs\\AttendeeDto.cs",
+              "RelativeToolTip": "SmartEvent.Core\\DTOs\\AttendeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:08:29.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventDto.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\DTOs\\EventDto.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\DTOs\\EventDto.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\DTOs\\EventDto.cs",
+              "RelativeToolTip": "SmartEvent.Core\\DTOs\\EventDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:07:54.847Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\UserService.cs",
+              "RelativeToolTip": "SmartEvent.Services\\UserService.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAawHcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:24:33.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventCreateDto.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\DTOs\\EventCreateDto.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\DTOs\\EventCreateDto.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\DTOs\\EventCreateDto.cs",
+              "RelativeToolTip": "SmartEvent.Core\\DTOs\\EventCreateDto.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAswAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:08:36.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\User.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Models\\User.cs",
+              "RelativeToolTip": "SmartEvent.Core\\Models\\User.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:02:37.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "SmartEvent.Data\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAwwA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:05:33.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\Repository.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\Repositories\\Repository.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\Repository.cs",
+              "RelativeToolTip": "SmartEvent.Data\\Repositories\\Repository.cs",
+              "ViewState": "AgIAADoAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:10:22.827Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EventsController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\Controllers\\EventsController.cs",
+              "RelativeDocumentMoniker": "SmartEvent.API\\Controllers\\EventsController.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\Controllers\\EventsController.cs",
+              "RelativeToolTip": "SmartEvent.API\\Controllers\\EventsController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAmwBoAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:07:38.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "SmartEventDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\SmartEventDbContext.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\SmartEventDbContext.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\SmartEventDbContext.cs",
+              "RelativeToolTip": "SmartEvent.Data\\SmartEventDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwBsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:03:53.308Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AttendeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\AttendeeRepository.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\Repositories\\AttendeeRepository.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\AttendeeRepository.cs",
+              "RelativeToolTip": "SmartEvent.Data\\Repositories\\AttendeeRepository.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAvwCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:43:26.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "SmartEvent.API\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "SmartEvent.API\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAYwIEAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:06:44.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\RegistrationService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\RegistrationService.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\RegistrationService.cs",
+              "RelativeToolTip": "SmartEvent.Services\\RegistrationService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwCoAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T09:13:32.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "EventService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\EventService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\EventService.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\EventService.cs",
+              "RelativeToolTip": "SmartEvent.Services\\EventService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwCAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:03:04.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IEventService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\IEventService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\IEventService.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\IEventService.cs",
+              "RelativeToolTip": "SmartEvent.Services\\IEventService.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAlwBkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T15:08:02.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SmartEvent.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\SmartEvent.Services.csproj",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\SmartEvent.Services.csproj",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\SmartEvent.Services.csproj",
+              "RelativeToolTip": "SmartEvent.Services\\SmartEvent.Services.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T12:00:09.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "SmartEvent.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\SmartEvent.Data.csproj",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj",
+              "RelativeToolTip": "SmartEvent.Data\\SmartEvent.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-20T12:00:11.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "EventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\EventRepository.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Data\\Repositories\\EventRepository.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\Repositories\\EventRepository.cs",
+              "RelativeToolTip": "SmartEvent.Data\\Repositories\\EventRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAABiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T08:55:37.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IRegistrationService.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Interfaces\\IRegistrationService.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\Interfaces\\IRegistrationService.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Interfaces\\IRegistrationService.cs",
+              "RelativeToolTip": "SmartEvent.Core\\Interfaces\\IRegistrationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T07:42:51.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\Class1.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Services\\Class1.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Services\\Class1.cs",
+              "RelativeToolTip": "SmartEvent.Services\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:37:49.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Class1.cs",
+              "RelativeDocumentMoniker": "SmartEvent.Core\\Class1.cs",
+              "ToolTip": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\Class1.cs",
+              "RelativeToolTip": "SmartEvent.Core\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T13:37:14.406Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
