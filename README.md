@@ -1,111 +1,111 @@
 # SmartEvent
 
-SmartEvent is a comprehensive event management platform with a .NET Core backend and React frontend that allows users to create, manage, and register for events.
+SmartEvent est une plateforme complète de gestion d'événements avec un backend .NET Core et un frontend React qui permet aux utilisateurs de créer, gérer et s'inscrire à des événements.
 
-## Project Structure
+## Structure du Projet
 
-The solution follows an N-Tier architecture with a Service-Oriented Architecture (SOA) component:
+La solution suit une architecture N-Tier avec une composante d'Architecture Orientée Services (SOA) :
 
-- **SmartEvent.API**: Main API project that handles HTTP requests and acts as the entry point for the application
-- **SmartEvent.Core**: Contains domain models and interfaces
-- **SmartEvent.Data**: EF Core repositories and database context
-- **SmartEvent.Services**: Business logic services
-- **SmartEvent.RegistrationService**: Separate microservice for handling event registrations (SOA)
-- **frontend**: React.js client application
+- **SmartEvent.API** : Projet API principal qui gère les requêtes HTTP et sert de point d'entrée pour l'application
+- **SmartEvent.Core** : Contient les modèles de domaine et les interfaces
+- **SmartEvent.Data** : Repositories EF Core et contexte de base de données
+- **SmartEvent.Services** : Services de logique métier
+- **SmartEvent.RegistrationService** : Microservice séparé pour gérer les inscriptions aux événements (SOA)
+- **frontend** : Application client React.js
 
-## Features
+## Fonctionnalités
 
-- Event management (CRUD operations)
-- Event registration
-- Prevention of double registrations
-- Participant listing
-- SOA implementation for registration service
+- Gestion des événements (opérations CRUD)
+- Inscription aux événements
+- Prévention des doubles inscriptions
+- Liste des participants
+- Implémentation SOA pour le service d'inscription
 
-## Getting Started
+## Mise en Route
 
-### Prerequisites
+### Prérequis
 
-- .NET 8 SDK
-- SQL Server (LocalDB or full instance)
-- Node.js and npm
+- SDK .NET 8
+- SQL Server (LocalDB ou instance complète)
+- Node.js et npm
 
-### Database Setup
+### Configuration de la Base de Données
 
-1. Update the connection string in `appsettings.json` if needed
-2. Run Entity Framework migrations:
+1. Mettez à jour la chaîne de connexion dans `appsettings.json` si nécessaire
+2. Exécutez les migrations Entity Framework :
 
 ```
 cd SmartEvent.API
 dotnet ef database update
 ```
 
-### Running the API
+### Exécution de l'API
 
-1. Run the API project:
+1. Exécutez le projet API :
 
 ```
 cd SmartEvent.API
 dotnet run
 ```
 
-2. Run the Registration Service (for SOA implementation):
+2. Exécutez le Service d'Inscription (pour l'implémentation SOA) :
 
 ```
 cd SmartEvent.RegistrationService
 dotnet run
 ```
 
-### Running the Frontend
+### Exécution du Frontend
 
-1. Navigate to the frontend directory:
+1. Naviguez vers le répertoire frontend :
 
 ```
 cd SmartEvent/frontend
 ```
 
-2. Install dependencies:
+2. Installez les dépendances :
 
 ```
 npm install
 ```
 
-3. Start the development server:
+3. Démarrez le serveur de développement :
 
 ```
 npm start
 ```
 
-## API Endpoints
+## Points de Terminaison API
 
-### Events
+### Événements
 
-- **GET /api/events**: Get all events
-- **GET /api/events/{id}**: Get event by ID
-- **POST /api/events**: Create a new event
-- **PUT /api/events/{id}**: Update an event
-- **DELETE /api/events/{id}**: Delete an event
+- **GET /api/events** : Obtenir tous les événements
+- **GET /api/events/{id}** : Obtenir un événement par ID
+- **POST /api/events** : Créer un nouvel événement
+- **PUT /api/events/{id}** : Mettre à jour un événement
+- **DELETE /api/events/{id}** : Supprimer un événement
 
-### Registrations
+### Inscriptions
 
-- **POST /api/registrations/events/{eventId}**: Register for an event
-- **GET /api/registrations/events/{eventId}/Participants**: Get event Participants
-- **GET /api/registrations/events/{eventId}/full**: Check if an event is full
+- **POST /api/registrations/events/{eventId}** : S'inscrire à un événement
+- **GET /api/registrations/events/{eventId}/Participants** : Obtenir les participants à un événement
+- **GET /api/registrations/events/{eventId}/full** : Vérifier si un événement est complet
 
 ## Architecture
 
-The application follows a clean architecture approach:
+L'application suit une approche d'architecture propre :
 
-1. **Core Layer**: Contains domain models and interfaces
-2. **Data Layer**: Implements repositories and database access
-3. **Services Layer**: Contains business logic
-4. **API Layer**: Exposes REST endpoints
+1. **Couche Core** : Contient les modèles de domaine et les interfaces
+2. **Couche Data** : Implémente les repositories et l'accès à la base de données
+3. **Couche Services** : Contient la logique métier
+4. **Couche API** : Expose les points de terminaison REST
 
-The registration functionality has been extracted into a separate microservice (SOA approach) that communicates with the main API via HTTP.
+La fonctionnalité d'inscription a été extraite dans un microservice séparé (approche SOA) qui communique avec l'API principale via HTTP.
 
-## Technologies Used
+## Technologies Utilisées
 
 - ASP.NET Core 8
 - Entity Framework Core
 - React.js
 - SQL Server
-- RESTful API 
+- API RESTful 
