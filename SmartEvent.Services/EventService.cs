@@ -11,12 +11,12 @@ namespace SmartEvent.Services
     public class EventService : SmartEvent.Core.Interfaces.IEventService
     {
         private readonly IEventRepository _eventRepository;
-        private readonly IAttendeeRepository _attendeeRepository;
+        private readonly IParticipantRepository _ParticipantRepository;
 
-        public EventService(IEventRepository eventRepository, IAttendeeRepository attendeeRepository)
+        public EventService(IEventRepository eventRepository, IParticipantRepository ParticipantRepository)
         {
             _eventRepository = eventRepository;
-            _attendeeRepository = attendeeRepository;
+            _ParticipantRepository = ParticipantRepository;
         }
 
         public async Task<IEnumerable<EventDto>> GetAllEventsAsync()
@@ -43,7 +43,7 @@ namespace SmartEvent.Services
                 StartDate = eventDto.StartDate,
                 EndDate = eventDto.EndDate,
                 Location = eventDto.Location,
-                MaxAttendees = eventDto.MaxAttendees,
+                MaxParticipants = eventDto.MaxParticipants,
                 IsPublic = eventDto.IsPublic,
                 OrganizerId = eventDto.OrganizerId,
                 CreatedAt = DateTime.Now
@@ -64,7 +64,7 @@ namespace SmartEvent.Services
             existingEvent.StartDate = eventDto.StartDate;
             existingEvent.EndDate = eventDto.EndDate;
             existingEvent.Location = eventDto.Location;
-            existingEvent.MaxAttendees = eventDto.MaxAttendees;
+            existingEvent.MaxParticipants = eventDto.MaxParticipants;
             existingEvent.IsPublic = eventDto.IsPublic;
             existingEvent.UpdatedAt = DateTime.Now;
 
@@ -79,7 +79,7 @@ namespace SmartEvent.Services
 
         private async Task<EventDto> MapEventToDtoAsync(Event eventEntity)
         {
-            var attendeeCount = await _attendeeRepository.GetEventAttendeeCountAsync(eventEntity.Id);
+            var ParticipantCount = await _ParticipantRepository.GetEventParticipantCountAsync(eventEntity.Id);
             
             return new EventDto
             {
@@ -89,8 +89,8 @@ namespace SmartEvent.Services
                 StartDate = eventEntity.StartDate,
                 EndDate = eventEntity.EndDate,
                 Location = eventEntity.Location,
-                MaxAttendees = eventEntity.MaxAttendees,
-                CurrentAttendees = attendeeCount,
+                MaxParticipants = eventEntity.MaxParticipants,
+                CurrentParticipants = ParticipantCount,
                 IsPublic = eventEntity.IsPublic,
                 OrganizerId = eventEntity.OrganizerId,
                 OrganizerName = "Organizer" // In a real app, you'd get this from a user service

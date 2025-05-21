@@ -12,9 +12,9 @@ namespace SmartEvent.Data.Repositories
 {
     public class EventRepository : SmartEvent.Core.Interfaces.IEventRepository, IRepository<Event>
     {
-        private readonly SmartEventDbContext _context;
+        private readonly AppDbContext _context;
 
-        public EventRepository(SmartEventDbContext context)
+        public EventRepository(AppDbContext context)
         {
             _context = context;
         }
@@ -78,9 +78,9 @@ namespace SmartEvent.Data.Repositories
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<Attendee>> GetEventAttendeesAsync(int eventId)
+        public async Task<IEnumerable<Participant>> GetEventParticipantsAsync(int eventId)
         {
-            return await _context.Attendees
+            return await _context.Participants
                 .Where(a => a.EventId == eventId)
                 .ToListAsync();
         }

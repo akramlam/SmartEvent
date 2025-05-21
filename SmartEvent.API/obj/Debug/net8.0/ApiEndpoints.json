@@ -101,8 +101,8 @@
   },
   {
     "ContainingType": "SmartEvent.API.Controllers.RegistrationsController",
-    "Method": "GetEventAttendees",
-    "RelativePath": "api/Registrations/events/{eventId}/attendees",
+    "Method": "GetEventParticipants",
+    "RelativePath": "api/Registrations/events/{eventId}/Participants",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

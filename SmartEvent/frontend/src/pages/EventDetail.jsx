@@ -48,7 +48,6 @@ const EventDetail = () => {
     try {
       await deleteEvent(id);
       setShowDeleteModal(false);
-      // Redirect to events page after successful deletion
       navigate('/events');
     } catch (err) {
       setError('Échec de la suppression de l\'événement. Veuillez réessayer plus tard.');
@@ -74,11 +73,9 @@ const EventDetail = () => {
     return <div className="error">Événement introuvable.</div>;
   }
 
-  // Calculate if event is upcoming
   const isUpcoming = new Date(event.startDate) > new Date();
   
-  // Calculate available spots
-  const availableSpots = event.maxAttendees - event.currentAttendees;
+  const availableSpots = event.maxParticipants - event.currentParticipants;
   const spotsAvailable = availableSpots > 0;
 
   return (
@@ -165,7 +162,7 @@ const EventDetail = () => {
                 <h4>Capacité</h4>
                 <p className={spotsAvailable ? '' : 'full'}>
                   {spotsAvailable 
-                    ? `${availableSpots} places disponibles (${event.currentAttendees}/${event.maxAttendees})` 
+                    ? `${availableSpots} places disponibles (${event.currentParticipants}/${event.maxParticipants})` 
                     : 'Événement complet'}
                 </p>
               </div>

@@ -46,7 +46,7 @@ const EventCard = ({ event }) => {
         
         <div className="attendance-info">
           <span className="attendance-count">
-            {(event.currentAttendees ?? 0)}/{(event.maxAttendees ?? 0)} participants
+            {(event.currentParticipants ?? 0)}/{(event.maxParticipants ?? 0)} participants
           </span>
         </div>
       </div>

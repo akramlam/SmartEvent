@@ -27,8 +27,8 @@ namespace SmartEvent.RegistrationService.Controllers
 
             try
             {
-                var attendee = await _registrationService.RegisterForEventAsync(eventId, registrationDto);
-                return CreatedAtAction(nameof(GetEventAttendees), new { eventId }, attendee);
+                var Participant = await _registrationService.RegisterForEventAsync(eventId, registrationDto);
+                return CreatedAtAction(nameof(GetEventParticipants), new { eventId }, Participant);
             }
             catch (Exception ex)
             {
@@ -43,14 +43,14 @@ namespace SmartEvent.RegistrationService.Controllers
             }
         }
 
-        // GET: api/registrations/events/5/attendees
-        [HttpGet("events/{eventId}/attendees")]
-        public async Task<IActionResult> GetEventAttendees(int eventId)
+        // GET: api/registrations/events/5/Participants
+        [HttpGet("events/{eventId}/Participants")]
+        public async Task<IActionResult> GetEventParticipants(int eventId)
         {
             try
             {
-                var attendees = await _registrationService.GetEventAttendeesAsync(eventId);
-                return Ok(attendees);
+                var Participants = await _registrationService.GetEventParticipantsAsync(eventId);
+                return Ok(Participants);
             }
             catch (Exception ex)
             {

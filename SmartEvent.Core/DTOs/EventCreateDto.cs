@@ -23,7 +23,7 @@ namespace SmartEvent.Core.DTOs
         public string Location { get; set; }
         
         [Range(1, 1000)]
-        public int MaxAttendees { get; set; }
+        public int MaxParticipants { get; set; }
         
         public bool IsPublic { get; set; } = true;
         

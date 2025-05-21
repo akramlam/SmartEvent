@@ -12,7 +12,7 @@ namespace SmartEvent.Data
         public static async Task SeedData(SmartEventDbContext context)
         {
             // Clear existing data if needed
-            // await context.Database.ExecuteSqlRawAsync("DELETE FROM Attendees");
+            // await context.Database.ExecuteSqlRawAsync("DELETE FROM Participants");
             // await context.Database.ExecuteSqlRawAsync("DELETE FROM Events");
             // await context.Database.ExecuteSqlRawAsync("DELETE FROM Users");
             
@@ -72,7 +72,7 @@ namespace SmartEvent.Data
                         StartDate = DateTime.Now.AddDays(30),
                         EndDate = DateTime.Now.AddDays(32),
                         Location = "Convention Center, New York",
-                        MaxAttendees = 500,
+                        MaxParticipants = 500,
                         IsPublic = true,
                         OrganizerId = "user-1-guid",
                         CreatedAt = DateTime.Now.AddDays(-20)
@@ -84,7 +84,7 @@ namespace SmartEvent.Data
                         StartDate = DateTime.Now.AddDays(15),
                         EndDate = DateTime.Now.AddDays(15).AddHours(8),
                         Location = "Online",
-                        MaxAttendees = 100,
+                        MaxParticipants = 100,
                         IsPublic = true,
                         OrganizerId = "user-1-guid",
                         CreatedAt = DateTime.Now.AddDays(-10)
@@ -96,7 +96,7 @@ namespace SmartEvent.Data
                         StartDate = DateTime.Now.AddDays(45),
                         EndDate = DateTime.Now.AddDays(47),
                         Location = "Tech Hub, San Francisco",
-                        MaxAttendees = 200,
+                        MaxParticipants = 200,
                         IsPublic = true,
                         OrganizerId = "user-2-guid",
                         CreatedAt = DateTime.Now.AddDays(-15)
@@ -108,7 +108,7 @@ namespace SmartEvent.Data
                         StartDate = DateTime.Now.AddDays(60),
                         EndDate = DateTime.Now.AddDays(61),
                         Location = "Innovation Center, Chicago",
-                        MaxAttendees = 150,
+                        MaxParticipants = 150,
                         IsPublic = true,
                         OrganizerId = "user-2-guid",
                         CreatedAt = DateTime.Now.AddDays(-5)
@@ -120,7 +120,7 @@ namespace SmartEvent.Data
                         StartDate = DateTime.Now.AddDays(20),
                         EndDate = DateTime.Now.AddDays(21),
                         Location = "Security Complex, Washington DC",
-                        MaxAttendees = 300,
+                        MaxParticipants = 300,
                         IsPublic = false,
                         OrganizerId = "user-3-guid",
                         CreatedAt = DateTime.Now.AddDays(-25)
@@ -131,30 +131,30 @@ namespace SmartEvent.Data
                 await context.SaveChangesAsync();
             }
 
-            // Add attendees (optional)
-            if (!await context.Attendees.AnyAsync())
+            // Add Participants (optional)
+            if (!await context.Participants.AnyAsync())
             {
                 // We need to load the events with their full entity
                 var events = await context.Events.ToListAsync();
                 
-                // Process each event - we'll add attendees for each event
+                // Process each event - we'll add Participants for each event
                 foreach (var eventEntity in events)
                 {
-                    // Add 5 random attendees to each event
+                    // Add 5 random Participants to each event
                     for (int i = 0; i < 5; i++)
                     {
-                        var attendee = new Attendee
+                        var Participant = new Participant
                         {
                             EventId = eventEntity.Id,
                             Event = eventEntity,  // Set the required Event navigation property
-                            Name = $"Attendee {i+1}",
-                            Email = $"attendee{i+1}_{eventEntity.Id}@example.com",
+                            Name = $"Participant {i+1}",
+                            Email = $"Participant{i+1}_{eventEntity.Id}@example.com",
                             RegistrationDate = DateTime.Now.AddDays(-Random.Shared.Next(1, 10)),
                             HasAttended = false,
                             RegistrationCode = Guid.NewGuid().ToString("N").Substring(0, 8).ToUpper()
                         };
                         
-                        await context.Attendees.AddAsync(attendee);
+                        await context.Participants.AddAsync(Participant);
                     }
                 }
                 

@@ -40,7 +40,7 @@ namespace SmartEvent.Data.Migrations
                     StartDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     EndDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     Location = table.Column<string>(type: "nvarchar(200)", maxLength: 200, nullable: false),
-                    MaxAttendees = table.Column<int>(type: "int", nullable: false),
+                    MaxParticipants = table.Column<int>(type: "int", nullable: false),
                     IsPublic = table.Column<bool>(type: "bit", nullable: false),
                     OrganizerId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     CreatedAt = table.Column<DateTime>(type: "datetime2", nullable: false),
@@ -58,7 +58,7 @@ namespace SmartEvent.Data.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Attendees",
+                name: "Participants",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -72,9 +72,9 @@ namespace SmartEvent.Data.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Attendees", x => x.Id);
+                    table.PrimaryKey("PK_Participants", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Attendees_Events_EventId",
+                        name: "FK_Participants_Events_EventId",
                         column: x => x.EventId,
                         principalTable: "Events",
                         principalColumn: "Id",
@@ -82,8 +82,8 @@ namespace SmartEvent.Data.Migrations
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Attendees_EventId",
-                table: "Attendees",
+                name: "IX_Participants_EventId",
+                table: "Participants",
                 column: "EventId");
 
             migrationBuilder.CreateIndex(
@@ -96,7 +96,7 @@ namespace SmartEvent.Data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Attendees");
+                name: "Participants");
 
             migrationBuilder.DropTable(
                 name: "Events");

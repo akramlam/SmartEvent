@@ -11,23 +11,23 @@ namespace SmartEvent.Services
     public class RegistrationService : IRegistrationService
     {
         private readonly IEventRepository _eventRepository;
-        private readonly IAttendeeRepository _attendeeRepository;
+        private readonly IParticipantRepository _ParticipantRepository;
 
-        public RegistrationService(IEventRepository eventRepository, IAttendeeRepository attendeeRepository)
+        public RegistrationService(IEventRepository eventRepository, IParticipantRepository ParticipantRepository)
         {
             _eventRepository = eventRepository;
-            _attendeeRepository = attendeeRepository;
+            _ParticipantRepository = ParticipantRepository;
         }
 
-        public async Task<AttendeeDto> RegisterForEventAsync(int eventId, RegistrationDto registrationDto)
+        public async Task<ParticipantDto> RegisterForEventAsync(int eventId, RegistrationDto registrationDto)
         {
             // Check if event exists
             var eventEntity = await _eventRepository.GetEventByIdAsync(eventId);
             if (eventEntity == null)
                 throw new Exception($"Event with ID {eventId} not found");
 
-            // Check if attendee is already registered
-            bool isAlreadyRegistered = await _attendeeRepository.AttendeeExistsAsync(eventId, registrationDto.Email);
+            // Check if Participant is already registered
+            bool isAlreadyRegistered = await _ParticipantRepository.ParticipantExistsAsync(eventId, registrationDto.Email);
             if (isAlreadyRegistered)
                 throw new Exception("You are already registered for this event");
 
@@ -39,8 +39,8 @@ namespace SmartEvent.Services
             // Generate a unique registration code
             string registrationCode = Guid.NewGuid().ToString("N").Substring(0, 10).ToUpper();
             
-            // Create the attendee
-            var attendee = new Attendee
+            // Create the Participant
+            var Participant = new Participant
             {
                 EventId = eventId,
                 Name = registrationDto.Name,
@@ -51,20 +51,20 @@ namespace SmartEvent.Services
                 Event = eventEntity
             };
 
-            var createdAttendee = await _attendeeRepository.CreateAttendeeAsync(attendee);
+            var createdParticipant = await _ParticipantRepository.CreateParticipantAsync(Participant);
             
-            return MapToAttendeeDto(createdAttendee);
+            return MapToParticipantDto(createdParticipant);
         }
 
-        public async Task<IEnumerable<AttendeeDto>> GetEventAttendeesAsync(int eventId)
+        public async Task<IEnumerable<ParticipantDto>> GetEventParticipantsAsync(int eventId)
         {
             // Check if event exists
             bool eventExists = await _eventRepository.EventExistsAsync(eventId);
             if (!eventExists)
                 throw new Exception($"Event with ID {eventId} not found");
 
-            var attendees = await _attendeeRepository.GetAttendeesByEventIdAsync(eventId);
-            return attendees.Select(MapToAttendeeDto);
+            var Participants = await _ParticipantRepository.GetParticipantsByEventIdAsync(eventId);
+            return Participants.Select(MapToParticipantDto);
         }
 
         public async Task<bool> IsEventFullAsync(int eventId)
@@ -73,26 +73,26 @@ namespace SmartEvent.Services
             if (eventEntity == null)
                 throw new Exception($"Event with ID {eventId} not found");
 
-            // If maxAttendees is 0, it means unlimited
-            if (eventEntity.MaxAttendees <= 0)
+            // If maxParticipants is 0, it means unlimited
+            if (eventEntity.MaxParticipants <= 0)
                 return false;
 
-            int currentAttendees = await _attendeeRepository.GetEventAttendeeCountAsync(eventId);
-            return currentAttendees >= eventEntity.MaxAttendees;
+            int currentParticipants = await _ParticipantRepository.GetEventParticipantCountAsync(eventId);
+            return currentParticipants >= eventEntity.MaxParticipants;
         }
 
-        private AttendeeDto MapToAttendeeDto(Attendee attendee)
+        private ParticipantDto MapToParticipantDto(Participant Participant)
         {
-            return new AttendeeDto
+            return new ParticipantDto
             {
-                Id = attendee.Id,
-                EventId = attendee.EventId,
-                Name = attendee.Name,
-                Email = attendee.Email,
-                RegistrationDate = attendee.RegistrationDate,
-                HasAttended = attendee.HasAttended,
-                RegistrationCode = attendee.RegistrationCode,
-                EventTitle = attendee.Event?.Title
+                Id = Participant.Id,
+                EventId = Participant.EventId,
+                Name = Participant.Name,
+                Email = Participant.Email,
+                RegistrationDate = Participant.RegistrationDate,
+                HasAttended = Participant.HasAttended,
+                RegistrationCode = Participant.RegistrationCode,
+                EventTitle = Participant.Event?.Title
             };
         }
     }

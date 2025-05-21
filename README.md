@@ -88,7 +88,7 @@ npm start
 ### Registrations
 
 - **POST /api/registrations/events/{eventId}**: Register for an event
-- **GET /api/registrations/events/{eventId}/attendees**: Get event attendees
+- **GET /api/registrations/events/{eventId}/Participants**: Get event Participants
 - **GET /api/registrations/events/{eventId}/full**: Check if an event is full
 
 ## Architecture

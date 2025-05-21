@@ -10,8 +10,8 @@ namespace SmartEvent.Core.DTOs
         public DateTime StartDate { get; set; }
         public DateTime EndDate { get; set; }
         public required string Location { get; set; }
-        public int MaxAttendees { get; set; }
-        public int CurrentAttendees { get; set; }
+        public int MaxParticipants { get; set; }
+        public int CurrentParticipants { get; set; }
         public bool IsPublic { get; set; }
         public required string OrganizerId { get; set; }
         public required string OrganizerName { get; set; }

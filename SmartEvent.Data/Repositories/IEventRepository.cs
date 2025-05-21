@@ -11,6 +11,6 @@ namespace SmartEvent.Data.Repositories
     {
         Task<IEnumerable<Event>> GetUpcomingEventsAsync();
         Task<IEnumerable<Event>> GetEventsByOrganizerAsync(string organizerId);
-        Task<IEnumerable<Attendee>> GetEventAttendeesAsync(int eventId);
+        Task<IEnumerable<Participant>> GetEventParticipantsAsync(int eventId);
     }
 } 

@@ -27,9 +27,9 @@ namespace SmartEvent.API.Controllers
                 var events = await _eventService.GetAllEventsAsync();
                 return Ok(events);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {e.Message}");
             }
         }
 
@@ -45,9 +45,9 @@ namespace SmartEvent.API.Controllers
 
                 return Ok(eventEntity);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {e.Message}");
             }
         }
 
@@ -63,9 +63,9 @@ namespace SmartEvent.API.Controllers
                 var createdEvent = await _eventService.CreateEventAsync(eventDto);
                 return CreatedAtAction(nameof(GetEvent), new { id = createdEvent.Id }, createdEvent);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {e.Message}");
             }
         }
 
@@ -84,9 +84,9 @@ namespace SmartEvent.API.Controllers
 
                 return Ok(updatedEvent);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {e.Message}");
             }
         }
 
@@ -102,9 +102,9 @@ namespace SmartEvent.API.Controllers
 
                 return NoContent();
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {e.Message}");
             }
         }
     }

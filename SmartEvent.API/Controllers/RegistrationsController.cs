@@ -27,37 +27,37 @@ namespace SmartEvent.API.Controllers
 
             try
             {
-                var attendee = await _registrationService.RegisterForEventAsync(eventId, registrationDto);
-                return CreatedAtAction(nameof(GetEventAttendees), new { eventId }, attendee);
+                var Participant = await _registrationService.RegisterForEventAsync(eventId, registrationDto);
+                return CreatedAtAction(nameof(GetEventParticipants), new { eventId }, Participant);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                if (ex.Message.Contains("already registered"))
-                    return Conflict(ex.Message);
-                if (ex.Message.Contains("maximum capacity"))
-                    return BadRequest(ex.Message);
-                if (ex.Message.Contains("not found"))
-                    return NotFound(ex.Message);
+                if (e.Message.Contains("already registered"))
+                    return Conflict(e.Message);
+                if (e.Message.Contains("maximum capacity"))
+                    return BadRequest(e.Message);
+                if (e.Message.Contains("not found"))
+                    return NotFound(e.Message);
 
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {e.Message}");
             }
         }
 
-        // GET: api/registrations/events/5/attendees
-        [HttpGet("events/{eventId}/attendees")]
-        public async Task<IActionResult> GetEventAttendees(int eventId)
+        // GET: api/registrations/events/5/Participants
+        [HttpGet("events/{eventId}/Participants")]
+        public async Task<IActionResult> GetEventParticipants(int eventId)
         {
             try
             {
-                var attendees = await _registrationService.GetEventAttendeesAsync(eventId);
-                return Ok(attendees);
+                var Participants = await _registrationService.GetEventParticipantsAsync(eventId);
+                return Ok(Participants);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                if (ex.Message.Contains("not found"))
-                    return NotFound(ex.Message);
+                if (e.Message.Contains("not found"))
+                    return NotFound(e.Message);
 
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {e.Message}");
             }
         }
 
@@ -70,12 +70,12 @@ namespace SmartEvent.API.Controllers
                 bool isFull = await _registrationService.IsEventFullAsync(eventId);
                 return Ok(isFull);
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                if (ex.Message.Contains("not found"))
-                    return NotFound(ex.Message);
+                if (e.Message.Contains("not found"))
+                    return NotFound(e.Message);
 
-                return StatusCode(500, $"Internal server error: {ex.Message}");
+                return StatusCode(500, $"Internal server error: {e.Message}");
             }
         }
     }

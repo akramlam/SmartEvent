@@ -7,8 +7,8 @@ namespace SmartEvent.Core.Interfaces
 {
     public interface IRegistrationService
     {
-        Task<AttendeeDto> RegisterForEventAsync(int eventId, RegistrationDto registrationDto);
-        Task<IEnumerable<AttendeeDto>> GetEventAttendeesAsync(int eventId);
+        Task<ParticipantDto> RegisterForEventAsync(int eventId, RegistrationDto registrationDto);
+        Task<IEnumerable<ParticipantDto>> GetEventParticipantsAsync(int eventId);
         Task<bool> IsEventFullAsync(int eventId);
     }
 } 

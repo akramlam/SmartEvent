@@ -45,7 +45,7 @@ const RegistrationForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setSubmitting(true);
-    setError(null); // Clear any previous errors
+    setError(null); 
     
     try {
       console.log(`Submitting registration for event ${id}`);

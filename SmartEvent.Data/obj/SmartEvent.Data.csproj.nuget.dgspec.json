@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj": {}
+    "D:\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj": {
+    "D:\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj",
+        "projectUniqueName": "D:\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj",
         "projectName": "SmartEvent.Core",
-        "projectPath": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj",
+        "projectPath": "D:\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj",
         "packagesPath": "C:\\Users\\Windows 11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\obj\\",
+        "outputPath": "D:\\SmartEvent\\SmartEvent.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj": {
+    "D:\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj",
+        "projectUniqueName": "D:\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj",
         "projectName": "SmartEvent.Data",
-        "projectPath": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj",
+        "projectPath": "D:\\SmartEvent\\SmartEvent.Data\\SmartEvent.Data.csproj",
         "packagesPath": "C:\\Users\\Windows 11\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Data\\obj\\",
+        "outputPath": "D:\\SmartEvent\\SmartEvent.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -99,8 +99,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj": {
-                "projectPath": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj"
+              "D:\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj": {
+                "projectPath": "D:\\SmartEvent\\SmartEvent.Core\\SmartEvent.Core.csproj"
               }
             }
           }

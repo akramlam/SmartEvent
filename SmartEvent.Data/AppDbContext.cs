@@ -11,7 +11,7 @@ namespace SmartEvent.Data
 
         public DbSet<Event> Events { get; set; }
         public DbSet<User> Users { get; set; }
-        public DbSet<Attendee> Attendees { get; set; }
+        public DbSet<Participant> Participants { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -23,11 +23,16 @@ namespace SmartEvent.Data
                 .WithMany(u => u.OrganizedEvents)
                 .HasForeignKey(e => e.OrganizerId);
 
-            modelBuilder.Entity<Attendee>()
+            modelBuilder.Entity<Participant>()
                 .HasOne(a => a.Event)
                 .WithMany()
                 .HasForeignKey(a => a.EventId)
                 .OnDelete(DeleteBehavior.Cascade);
+                
+            // Add unique constraint to prevent double registrations
+            modelBuilder.Entity<Participant>()
+                .HasIndex(a => new { a.EventId, a.Email })
+                .IsUnique();
         }
     }
 }

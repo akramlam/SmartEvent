@@ -29,7 +29,7 @@ namespace SmartEvent.Core.Models
         [StringLength(200)]
         public required string Location { get; set; }
         
-        public int MaxAttendees { get; set; }
+        public int MaxParticipants { get; set; }
         
         public bool IsPublic { get; set; }
         

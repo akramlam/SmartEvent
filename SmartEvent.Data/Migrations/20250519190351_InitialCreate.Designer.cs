@@ -25,7 +25,7 @@ namespace SmartEvent.Data.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("SmartEvent.Core.Models.Attendee", b =>
+            modelBuilder.Entity("SmartEvent.Core.Models.Participant", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -60,7 +60,7 @@ namespace SmartEvent.Data.Migrations
 
                     b.HasIndex("EventId");
 
-                    b.ToTable("Attendees");
+                    b.ToTable("Participants");
                 });
 
             modelBuilder.Entity("SmartEvent.Core.Models.Event", b =>
@@ -90,7 +90,7 @@ namespace SmartEvent.Data.Migrations
                         .HasMaxLength(200)
                         .HasColumnType("nvarchar(200)");
 
-                    b.Property<int>("MaxAttendees")
+                    b.Property<int>("MaxParticipants")
                         .HasColumnType("int");
 
                     b.Property<string>("OrganizerId")
@@ -153,7 +153,7 @@ namespace SmartEvent.Data.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("SmartEvent.Core.Models.Attendee", b =>
+            modelBuilder.Entity("SmartEvent.Core.Models.Participant", b =>
                 {
                     b.HasOne("SmartEvent.Core.Models.Event", "Event")
                         .WithMany()

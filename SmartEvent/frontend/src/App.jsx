@@ -13,7 +13,7 @@ function App() {
     <Router>
       <div className="app">
         <Header />
-        <main className="container">
+        <main className="container" style={{ paddingTop: '5rem', marginTop: '1rem' }}>
           <Routes>
             <Route path="/" element={<Navigate to="/events" replace />} />
             <Route path="/events" element={<EventList />} />

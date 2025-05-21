@@ -19,3 +19,25 @@ C:\Users\Windows 11\source\repos\SmartEvent\SmartEvent.Services\bin\Debug\net8.0
 C:\Users\Windows 11\source\repos\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Data.runtimeconfig.json
 C:\Users\Windows 11\source\repos\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\appsettings.json
 C:\Users\Windows 11\source\repos\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Data.exe
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\appsettings.json
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Data.deps.json
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Data.runtimeconfig.json
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Data.exe
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Services.deps.json
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Services.dll
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Services.pdb
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Core.dll
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Data.dll
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Core.pdb
+D:\SmartEvent\SmartEvent.Services\bin\Debug\net8.0\SmartEvent.Data.pdb
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\SmartEvent.Services.csproj.AssemblyReference.cache
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\SmartEvent.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\SmartEvent.Services.AssemblyInfoInputs.cache
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\SmartEvent.Services.AssemblyInfo.cs
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\SmartEvent.Services.csproj.CoreCompileInputs.cache
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\SmartEvent.Services.sourcelink.json
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\SmartEve.E40FCBE4.Up2Date
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\SmartEvent.Services.dll
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\refint\SmartEvent.Services.dll
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\SmartEvent.Services.pdb
+D:\SmartEvent\SmartEvent.Services\obj\Debug\net8.0\ref\SmartEvent.Services.dll

@@ -9,3 +9,15 @@ C:\Users\Windows 11\source\repos\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\Sma
 C:\Users\Windows 11\source\repos\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\refint\SmartEvent.Core.dll
 C:\Users\Windows 11\source\repos\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\SmartEvent.Core.pdb
 C:\Users\Windows 11\source\repos\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\ref\SmartEvent.Core.dll
+D:\SmartEvent\SmartEvent.Core\bin\Debug\net8.0\SmartEvent.Core.deps.json
+D:\SmartEvent\SmartEvent.Core\bin\Debug\net8.0\SmartEvent.Core.dll
+D:\SmartEvent\SmartEvent.Core\bin\Debug\net8.0\SmartEvent.Core.pdb
+D:\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\SmartEvent.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\SmartEvent.Core.AssemblyInfoInputs.cache
+D:\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\SmartEvent.Core.AssemblyInfo.cs
+D:\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\SmartEvent.Core.csproj.CoreCompileInputs.cache
+D:\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\SmartEvent.Core.sourcelink.json
+D:\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\SmartEvent.Core.dll
+D:\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\refint\SmartEvent.Core.dll
+D:\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\SmartEvent.Core.pdb
+D:\SmartEvent\SmartEvent.Core\obj\Debug\net8.0\ref\SmartEvent.Core.dll

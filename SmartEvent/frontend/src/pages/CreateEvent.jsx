@@ -12,7 +12,7 @@ const CreateEvent = () => {
     location: '',
     startDate: '',
     endDate: '',
-    maxAttendees: 50,
+    maxParticipants: 50,
     isPublic: true,
     organizerId: 'user-1-guid' // Default organizer - in a real app, you'd get this from auth
   });
@@ -138,12 +138,12 @@ const CreateEvent = () => {
         </div>
         
         <div className="form-group">
-          <label htmlFor="maxAttendees">Nombre maximum de participants</label>
+          <label htmlFor="maxParticipants">Nombre maximum de participants</label>
           <input
             type="number"
-            id="maxAttendees"
-            name="maxAttendees"
-            value={formData.maxAttendees}
+            id="maxParticipants"
+            name="maxParticipants"
+            value={formData.maxParticipants}
             onChange={handleNumberChange}
             min="1"
             max="1000"

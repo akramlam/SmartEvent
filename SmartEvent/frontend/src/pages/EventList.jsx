@@ -12,7 +12,6 @@ const EventList = () => {
       try {
         setLoading(true);
         const data = await getEvents();
-        console.log('Fetched events:', data); // Log for debugging
         setEvents(data);
         setLoading(false);
       } catch (err) {
@@ -52,7 +51,7 @@ const EventList = () => {
 
   return (
     <div>
-      <h2 className="page-title">Événements à venir</h2>
+      <h2 className="page-title text-center">Événements à venir</h2>
       {events.length === 0 ? (
         <div className="empty-state">
           <p>Aucun événement disponible pour le moment.</p>

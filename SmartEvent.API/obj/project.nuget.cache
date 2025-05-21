@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QnVf1qdvn7U=",
+  "dgSpecHash": "5MizwaulXfI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Windows 11\\source\\repos\\SmartEvent\\SmartEvent.API\\SmartEvent.API.csproj",
+  "projectFilePath": "D:\\SmartEvent\\SmartEvent.API\\SmartEvent.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Windows 11\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Windows 11\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

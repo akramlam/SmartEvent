@@ -19,10 +19,10 @@ namespace SmartEvent.Services
         Task<int> CreateEventAsync(EventDto eventDto);
         Task UpdateEventAsync(EventDto eventDto);
         Task DeleteEventAsync(int id);
-        Task<IEnumerable<AttendeeDto>> GetEventAttendeesAsync(int eventId);
-        Task<bool> RegisterAttendeeAsync(AttendeeDto attendeeDto);
-        Task<AttendeeDto> GetAttendeeByCodeAsync(string code);
-        Task MarkAttendeeAsAttendedAsync(int attendeeId);
+        Task<IEnumerable<ParticipantDto>> GetEventParticipantsAsync(int eventId);
+        Task<bool> RegisterParticipantAsync(ParticipantDto ParticipantDto);
+        Task<ParticipantDto> GetParticipantByCodeAsync(string code);
+        Task MarkParticipantAsAttendedAsync(int ParticipantId);
         //Task<EventDto> GetEventByIdAsync(int id);
     }
 } 

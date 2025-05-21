@@ -22,7 +22,7 @@ builder.Services.AddSwaggerGen(c =>
 });
 
 // Configure DbContext
-builder.Services.AddDbContext<SmartEventDbContext>(options =>
+builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Register generic repository
@@ -30,11 +30,13 @@ builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 
 // Register repositories - Core interfaces with Data implementations
 builder.Services.AddScoped<SmartEvent.Core.Interfaces.IEventRepository, EventRepository>();
-builder.Services.AddScoped<SmartEvent.Core.Interfaces.IAttendeeRepository, AttendeeRepository>();
+builder.Services.AddScoped<SmartEvent.Core.Interfaces.IParticipantRepository, ParticipantRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 // Register services
 builder.Services.AddScoped<SmartEvent.Core.Interfaces.IEventService, EventService>();
 builder.Services.AddScoped<SmartEvent.Core.Interfaces.IRegistrationService, RegistrationService>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 // Configure CORS
 builder.Services.AddCors(options =>
@@ -64,20 +66,8 @@ app.MapControllers();
 // Seed the database with sample data
 using (var scope = app.Services.CreateScope())
 {
-    var services = scope.ServiceProvider;
-    try
-    {
-        var context = services.GetRequiredService<SmartEventDbContext>();
-        // Make sure database is created
-        context.Database.EnsureCreated();
-        // Seed the data
-        DataSeeder.SeedData(context).Wait();
-    }
-    catch (Exception ex)
-    {
-        var logger = services.GetRequiredService<ILogger<Program>>();
-        logger.LogError(ex, "An error occurred while seeding the database.");
-    }
+    var dbContext = scope.ServiceProvider.GetRequiredService<AppDbContext>();
+    await dbContext.Database.MigrateAsync();
 }
 
 app.Run();

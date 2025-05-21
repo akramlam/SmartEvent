@@ -10,7 +10,7 @@ namespace SmartEvent.Data.Repositories
 {
     public class UserRepository : Repository<User>, IUserRepository
     {
-        public UserRepository(SmartEventDbContext context) : base(context)
+        public UserRepository(AppDbContext context) : base(context)
         {
         }
 

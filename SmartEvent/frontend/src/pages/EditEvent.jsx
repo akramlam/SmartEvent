@@ -14,7 +14,7 @@ const EditEvent = () => {
     location: '',
     startDate: '',
     endDate: '',
-    maxAttendees: 50,
+    maxParticipants: 50,
     isPublic: true,
     organizerId: '' 
   });
@@ -24,10 +24,9 @@ const EditEvent = () => {
       try {
         const data = await getEventById(id);
         
-        // Format dates for datetime-local input
         const formatDateForInput = (dateString) => {
           const date = new Date(dateString);
-          return date.toISOString().slice(0, 16); // Format as YYYY-MM-DDTHH:MM
+          return date.toISOString().slice(0, 16);
         };
         
         setFormData({
@@ -36,7 +35,7 @@ const EditEvent = () => {
           location: data.location || '',
           startDate: formatDateForInput(data.startDate) || '',
           endDate: formatDateForInput(data.endDate) || '',
-          maxAttendees: data.maxAttendees || 50,
+          maxParticipants: data.maxParticipants || 50,
           isPublic: data.isPublic !== undefined ? data.isPublic : true,
           organizerId: data.organizerId || ''
         });
@@ -74,7 +73,6 @@ const EditEvent = () => {
     setError(null);
     
     try {
-      // Validate dates
       const startDate = new Date(formData.startDate);
       const endDate = new Date(formData.endDate);
       
@@ -86,7 +84,6 @@ const EditEvent = () => {
       const updatedEvent = await updateEvent(id, formData);
       console.log('Updated event:', updatedEvent);
       
-      // Navigate to the event detail page
       navigate(`/events/${id}`);
     } catch (err) {
       console.error('Error updating event:', err);
@@ -182,12 +179,12 @@ const EditEvent = () => {
         </div>
         
         <div className="form-group">
-          <label htmlFor="maxAttendees">Nombre maximum de participants</label>
+          <label htmlFor="maxParticipants">Nombre maximum de participants</label>
           <input
             type="number"
-            id="maxAttendees"
-            name="maxAttendees"
-            value={formData.maxAttendees}
+            id="maxParticipants"
+            name="maxParticipants"
+            value={formData.maxParticipants}
             onChange={handleNumberChange}
             min="1"
             max="1000"

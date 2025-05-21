@@ -172,7 +172,7 @@
         }
       }
     },
-    "/api/Registrations/events/{eventId}/attendees": {
+    "/api/Registrations/events/{eventId}/Participants": {
       "get": {
         "tags": [
           "Registrations"
@@ -612,7 +612,7 @@
             "type": "string",
             "nullable": true
           },
-          "maxAttendees": {
+          "maxParticipants": {
             "maximum": 1000,
             "minimum": 1,
             "type": "integer",
@@ -662,11 +662,11 @@
             "type": "string",
             "nullable": true
           },
-          "maxAttendees": {
+          "maxParticipants": {
             "type": "integer",
             "format": "int32"
           },
-          "currentAttendees": {
+          "currentParticipants": {
             "type": "integer",
             "format": "int32"
           },
